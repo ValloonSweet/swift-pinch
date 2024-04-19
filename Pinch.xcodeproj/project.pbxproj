@@ -16,6 +16,7 @@
 		8AD3602A2BD0B6A8001A6B3C /* PinchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD360292BD0B6A8001A6B3C /* PinchTests.swift */; };
 		8AD360342BD0B6A8001A6B3C /* PinchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD360332BD0B6A8001A6B3C /* PinchUITests.swift */; };
 		8AD360362BD0B6A8001A6B3C /* PinchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD360352BD0B6A8001A6B3C /* PinchUITestsLaunchTests.swift */; };
+		8AD360472BD1E98E001A6B3C /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD360462BD1E98E001A6B3C /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8AD3602F2BD0B6A8001A6B3C /* PinchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD360332BD0B6A8001A6B3C /* PinchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchUITests.swift; sourceTree = "<group>"; };
 		8AD360352BD0B6A8001A6B3C /* PinchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AD360462BD1E98E001A6B3C /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,11 @@
 		8AD360122BD0B6A5001A6B3C /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
+				8AD360452BD0B941001A6B3C /* Screen */,
+				8AD360442BD0B93C001A6B3C /* View */,
+				8AD360432BD0B937001A6B3C /* Model */,
+				8AD360422BD0B932001A6B3C /* Data */,
 				8AD360132BD0B6A5001A6B3C /* PinchApp.swift */,
-				8AD360152BD0B6A5001A6B3C /* ContentView.swift */,
 				8AD360172BD0B6A8001A6B3C /* Assets.xcassets */,
 				8AD3601C2BD0B6A8001A6B3C /* Persistence.swift */,
 				8AD3601E2BD0B6A8001A6B3C /* Pinch.xcdatamodeld */,
@@ -131,6 +136,36 @@
 				8AD360352BD0B6A8001A6B3C /* PinchUITestsLaunchTests.swift */,
 			);
 			path = PinchUITests;
+			sourceTree = "<group>";
+		};
+		8AD360422BD0B932001A6B3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8AD360432BD0B937001A6B3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AD360442BD0B93C001A6B3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AD360462BD1E98E001A6B3C /* InfoPanelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AD360452BD0B941001A6B3C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8AD360152BD0B6A5001A6B3C /* ContentView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +302,7 @@
 				8AD3601D2BD0B6A8001A6B3C /* Persistence.swift in Sources */,
 				8AD360162BD0B6A5001A6B3C /* ContentView.swift in Sources */,
 				8AD360142BD0B6A5001A6B3C /* PinchApp.swift in Sources */,
+				8AD360472BD1E98E001A6B3C /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
